@@ -3,6 +3,7 @@ import { catchError, mapTo, of, Subject, tap, throwError } from 'rxjs';
 import { Sauce } from '../models/Sauce.model';
 import { HttpClient } from '@angular/common/http';
 import { AuthService } from './auth.service';
+import { apiUrl } from './config';
 
 @Injectable({
   providedIn: 'root'
